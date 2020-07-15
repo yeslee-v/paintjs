@@ -1,4 +1,4 @@
-# paintjs
+# Paint
 ## Tools
 - HTML5
 - CSS
