@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0px;
+  padding: 25px 0px;
 }
 
 .canvas {
@@ -26,15 +26,15 @@ body {
 }
 
 .controls .controls__btns {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .controls__btns button {
   all: unset;
   cursor: pointer;
   background-color: white;
-  padding: 3px 0px;
-  width: 70px;
+  padding: 8px 0px;
+  width: 80px;
   text-align: center;
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -56,11 +56,12 @@ body {
 .controls__colors .controls__color {
   width: 40px;
   height: 40px;
+  margin-left: 10px;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .controls .controls__range {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
